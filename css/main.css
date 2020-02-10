@@ -1,0 +1,234 @@
+/***** BASE STYLES *****/
+@font-face{
+	font-family: 'Libre Baskerville';
+	src: url('fonts/LibreBaskerville-Regular.ttf') format('opentype');
+}
+
+body{
+}
+
+#about{
+    height: 1050px;
+
+}
+
+#work{
+  height: 850px
+}
+
+#contact {
+    height: 650px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+  width:  600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+/***** "Header" CSS Code *****/
+header {
+    height: 800px;
+}
+
+nav {
+    float: right;
+    padding: 25px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: open sans bold;
+    text-transform: uppercase;
+    text-decoration: ;
+    font-size: 24px;
+    color: #313131;
+    padding-left: 25px;
+}
+
+header h5 {
+    font-family: Libre Baskerville bold;
+    width: 800px;
+    clear: both;
+    font-size: 64px;
+    line-height:75px;
+    color: #313131;
+    padding: 120px 0 10px 25px;
+}
+header h5 span {
+    color:  #ff654a;
+}
+header p {
+    font-family: open Sans Regular;
+    width: 800px;
+    font-size: 48px;
+    line-height:50px;
+    color: #313131;
+    padding: 0px 0px 20px 25px;
+}
+
+/***** "About" CSS Code *****/
+#about{
+    background-color: #ff654a;
+    text-align: center;
+    color: #ffffff;
+    margin:auto;
+}
+
+
+#about h2 {
+    font-family: 'Libre Baskerville Bold Heading';
+    font-size: 36px;
+    padding-top: 150px;
+}
+
+#about h3 {
+    font-family: 'Open Sans Bold';
+    font-size: 24px;
+
+}
+
+#about img {
+    border-width: 5px;
+    border-color: #ffffff;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+#about p {
+    font-size: 24px;
+    font-family: "Open Sans Regular"
+    line-height:10px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+/***** "Work" CSS Code *****/
+
+#work{
+  background: #white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work .my-portfolio{
+  font-family: "libre bakersville bold";
+  font-size: 36px;
+}
+
+#work img {
+    padding-top: 150px;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-color: #b7b7b7;
+}
+
+#work h3 {
+    font-family: "open sans bold";
+    font-size: 24px;
+    line-height: 20px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: "open sans regular";
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px ;
+    margin-top: 10px;
+}
+
+/***** "Contact" CSS Code *****/
+
+#contact{
+  background: #ff654a;
+  text-align: center;
+}
+
+#contact .full-width{
+  padding: 150px 0;
+}
+
+#contact h2 {
+  text-align: center;
+    font-family: "Libre Baskerville bold heading";
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+#contact h3 {
+    font-family: open sans bold;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 40px;
+}
+#contact #email-header{
+    font-size:30px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: ;
+    color: #ffffff;
+    font-weight: 400;
+    font-size:  20px;
+}
+
+#contact p {
+    font-family: open sans regular ;
+    color: #ffffff;
+    font-size:  24px;
+}
+
+#contact h5 {
+    font-family: open sans regular ;
+    color: #ffffff;
+    font-size:  24px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+#contact .copyright{
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans Regular";
+  padding-top: 220px ;
+}
